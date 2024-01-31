@@ -10,9 +10,10 @@
     align-items: center;
     gap: 10px;
     position: relative;
+    margin: 1em;
 }
 
-.carre {
+.carreVert {
     height: 200px;
     width: 200px;
     cursor: pointer;
@@ -23,17 +24,24 @@
     transition: 1s;
 }
 
+.carreRouge {
+    
+    background-color: red;
+    transition: 1s;
+    transform : rotate(-360deg) scale(0.9);
+}
+
 #carre3 {
     position: absolute;
     top: 210px;
-    left: 475px;
+    left: 393px;
     display: flex;
 }
 
 #carre4 {
     position: absolute;
     top: 210px;
-    right: 476px;
+    right: 394px;
     display: flex;
 }
 
